@@ -1,0 +1,17 @@
+name: BBox
+version: 1.0
+author: broswen
+main: me.broswen.bbox.BBox
+description: a custom jukebox music player plugin
+
+commands:
+  bbox:
+    description: the main info command
+    
+permissions:
+  bbox.info:
+    description: allows you to /bbox
+    default: op
+  bbox.use:
+    description: allows you to open the jukebox
+    default: op
